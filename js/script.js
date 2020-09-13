@@ -1,3 +1,34 @@
+// ======================menu fixed===================================
+$(window).scroll(function(){
+    var scrollamount = $(window).scrollTop()
+    if(scrollamount > 10){
+      $(".menu").addClass("fixed")
+    }else{
+        $(".menu").removeClass("fixed")
+      }
+      if(scrollamount > 500){
+        $(".btop").fadeIn();
+      }else{
+        $(".btop").fadeOut();
+      }
+})
+
+  $(".btop").click(function(){
+    $("html,body").animate({
+      scrollTop:0
+    },1000)
+    }),
+
+
+  $(".navbar-collapse a").click(function(){
+    $(".navbar-collapse").collapse('hide')
+  })
+
+// ======================menu fixed===================================
+
+
+
+
 //slider js @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 $('.slider').slick({
     dots: false,
