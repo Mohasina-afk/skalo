@@ -55,6 +55,27 @@ nav .navbar-brand img{
 }
 nav ul li{
     margin-left: 20px;
+    position: relative;
+}
+/* ****************************dropdown start***************************** */
+nav ul li a i{
+    font-size: 15px;
+    margin-left: 5px;
+}
+nav ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #f1f1f1;
+    width: 105px;
+    padding: 10px 1px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+nav ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
 }
 nav ul li a{
     font-family: bariol-googlefont;
@@ -81,7 +102,7 @@ nav .btn a{
     transition: .4s;
 }
 nav .spbtn a{
-    padding: 10px 18px;
+    padding: 10px 3px;
 }
 nav .btn a:hover{
     -webkit-box-shadow: 0px 20px 30px 0px rgba(255,135,72,.4);
@@ -186,9 +207,9 @@ box-shadow: 0px 20px 30px 0px rgba(53,177,186,.4);
 #about-part{
     padding-top: 100px;
 }
-#about-part .title span{
+/* #about-part .title span{
     text-transform: uppercase;
-}
+} */
 #about-part .one{
     font-family:  bariol-googlefont;
     font-size: 20px;
@@ -205,6 +226,7 @@ box-shadow: 0px 22px 30px 0px rgba(88,91,143,.2);
 #about-part .one span{
     text-transform: uppercase;
     color: #FF8748;
+    margin-right: 5px;
 }
 
 #about-part .two{
@@ -223,6 +245,7 @@ box-shadow: 0px 22px 30px 0px rgba(88,91,143,.2);
 #about-part .two span{
     text-transform: uppercase;
     color: #FF8748;
+    margin-right: 5px;
 }
 
 #about-part .three{
@@ -241,6 +264,7 @@ box-shadow: 0px 22px 30px 0px rgba(88,91,143,.2);
 #about-part .three span{
     text-transform: uppercase;
     color: #FF8748;
+    margin-right: 5px;
 }
 
 #about-part .four{
@@ -259,6 +283,7 @@ box-shadow: 0px 22px 30px 0px rgba(88,91,143,.2);
 #about-part .four span{
     text-transform: uppercase;
     color: #FF8748;
+    margin-right: 5px;
 }
 
 #about-part .five{
@@ -277,6 +302,7 @@ box-shadow: 0px 22px 30px 0px rgba(88,91,143,.2);
 #about-part .five span{
     text-transform: uppercase;
     color: #FF8748;
+    margin-right: 5px;
 }
 
 
@@ -460,7 +486,7 @@ box-shadow: 0px 20px 30px 0px rgba(88,91,143,.6);
 }
 #solve-part .part1 .cust .text p{
     font-family: bariol-fontregular;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     margin-top: 20px;
 }
@@ -472,7 +498,7 @@ box-shadow: 0px 20px 30px 0px rgba(88,91,143,.6);
 #solve-part .part1 .moni{
     background: #FF8748;
     text-align: center;
-    padding: 30px 10px 50px;
+    padding: 30px 10px 23px;
     border-radius: 10px;
     transition: .4s;
 }
@@ -493,9 +519,10 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.6);
 }
 #solve-part .part1 .moni .text p{
     font-family: bariol-fontregular;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
-    margin-top: 20px;
+    width: 180px;
+    margin: 20px auto 0;
 }
 
 
@@ -505,7 +532,7 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.6);
 #solve-part .part1 .report{
     background: #35B1BA;
     text-align: center;
-    padding: 30px 10px 70px;
+    padding: 30px 10px 19px;
     border-radius: 10px;
     transition: .4s;
 }
@@ -526,7 +553,7 @@ box-shadow: 0px 20px 30px 0px rgba(53,177,186,.6);
 }
 #solve-part .part1 .report .text p{
     font-family: bariol-fontregular;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     margin-top: 20px;
 }
@@ -535,7 +562,7 @@ box-shadow: 0px 20px 30px 0px rgba(53,177,186,.6);
 #solve-part .part1 .home{
     background: #FF0D41;
     text-align: center;
-    padding: 30px 10px;
+    padding: 42px 10px;
     border-radius: 10px;
     transition: .4s;
 }
@@ -556,7 +583,7 @@ box-shadow: 0px 20px 30px 0px rgba(255,13,65,.5);
 }
 #solve-part .part1 .home .text p{
     font-family: bariol-fontregular;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     margin-top: 20px;
 }
@@ -596,7 +623,7 @@ box-shadow: 0px 20px 30px 0px rgba(53,177,186,.6);
 }
 #solve-part .part2 .tips .text p{
     font-family: bariol-fontregular;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     margin-top: 20px;
 }
@@ -609,7 +636,7 @@ box-shadow: 0px 20px 30px 0px rgba(53,177,186,.6);
 #solve-part .part2 .library{
     background: #585B8F;
     text-align: center;
-    padding: 30px 10px;
+    padding: 54px 10px 25px;
     border-radius: 10px;
     transition: .4s;
 }
@@ -627,7 +654,7 @@ box-shadow: 0px 20px 30px 0px rgba(88,91,143,.6);
 }
 #solve-part .part2 .library .text p{
     font-family: bariol-fontregular;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     margin-top: 20px;
 }
@@ -639,7 +666,7 @@ box-shadow: 0px 20px 30px 0px rgba(88,91,143,.6);
 #solve-part .part2 .family{
     background: #FF8748;
     text-align: center;
-    padding: 30px 10px 67px;
+    padding: 30px 10px 38px;
     border-radius: 10px;
     transition: .4s;
 }
@@ -660,7 +687,7 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.6);
 }
 #solve-part .part2 .family .text p{
     font-family: bariol-fontregular;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     margin-top: 20px;
 }
@@ -734,7 +761,7 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.6);
     color: #fff;
     text-transform: capitalize;
     position: absolute;
-    top: 20px;
+    top: 35px;
     left: 35%;
 }
 #impact-part .img2 h3:after{
@@ -761,7 +788,7 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.6);
     color: #fff;
     text-transform: capitalize;
     position: absolute;
-    top: 20px;
+    top: 30px;
     left: 30%;
 }
 #impact-part .img3 h3:after{
@@ -820,8 +847,8 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.6);
     color: #FF8748;
     font-size: 20px;
     position: absolute;
-    top: 46%;
-    right: -48px;
+    top: 36%;
+    right: -47px;
 }
 #impact-part .timeline .two{
     font-family:  bariol-googlefont;
@@ -839,7 +866,7 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.6);
     color: #35B1BA;
     font-size: 20px;
     position: absolute;
-    top: 30%;
+    top: 20%;
     right: -49px;
 }
 #impact-part .timeline .three{
@@ -858,7 +885,7 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.6);
     color: #FF0D41;
     font-size: 20px;
     position: absolute;
-    top: 30%;
+    top: 15%;
     right: -51px;
 }
 #impact-part .timeline .four{
@@ -877,11 +904,35 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.6);
     color: #585B8F;
     font-size: 20px;
     position: absolute;
-    top: 39%;
+    top: 22%;
     right: -55px;
 }
 /*********************************************
               impact-part css end
+**********************************************/
+/*********************************************
+              picture-part css start
+**********************************************/
+#picture-part .title h1{
+    text-align: center;
+    font-size: 40px;
+    width: 900px;
+    margin: 100px auto 40px;
+}
+#picture-part .title h1 span{
+    color: #FF8748;
+}
+#picture-part .img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#picture-part .img img{
+    width: 60%;
+    height: 60%;
+}
+/*********************************************
+              picture-part css end
 **********************************************/
 /*********************************************
               gallery-part css start
@@ -889,7 +940,7 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.6);
 #gallery-part .title h1{
     text-align: center;
     text-transform: inherit;
-    padding-top: 150px;
+    padding-top: 60px;
 }
 #gallery-part .gallery1{
     margin-top: 100px;
@@ -901,7 +952,6 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.6);
 }
 #gallery-part .img2 img{
     width: 100%;
-    /*! margin-left: -15px; */
     transition: .4s;
 }
 #gallery-part .gallery2{
@@ -968,7 +1018,7 @@ box-shadow: 0px 22px 30px 0px rgba(88,91,143,.6);
     color: #fff;
     text-align: center;
     border-radius: 10px;
-    padding: 20px 0;
+    padding: 30px 0;
     margin-top: 30px;
     transition: .4s;
 }
@@ -990,7 +1040,25 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.5);
 #plan-part .basic span{
     font-size: 50px;
 }
-#plan-part .basic p:after{
+#plan-part .basic .btn{
+    margin: 30px 0;
+}
+#plan-part .basic .btn a{
+    font-family: bariol-googlefont;
+    font-size: 22px;
+    font-weight: bold;
+    color:#FF8748;
+    background: #fff;
+    padding: 15px 65px;
+    border-radius: 10px;
+}   
+#plan-part .basic h3{
+    font-family: bariol-googlefont;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 40px; 
+}
+/* #plan-part .basic p:after{
     position: absolute;
     bottom: -12px;
     left: 30px;
@@ -998,13 +1066,13 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.5);
     height: 1px;
     background: #fff;
     content: "";
-}
-#plan-part .basic ul{
+} */
+/* #plan-part .basic ul{
     margin-top: 40px;
 }
 #plan-part .basic ul li{
     margin-top: 20px;
-}
+} */
 
 
 
@@ -1014,7 +1082,7 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.5);
     color: #fff;
     text-align: center;
     border-radius: 10px;
-    padding: 20px 0;
+    padding: 30px 0;
     margin-top: 30px;
 }
 #plan-part .premium:hover{
@@ -1035,7 +1103,30 @@ box-shadow: 0px 20px 30px 0px rgba(53,177,186,.5);
 #plan-part .premium span{
     font-size: 50px;
 }
-#plan-part .premium p:after{
+#plan-part .premium .btn{
+    margin: 30px 0;
+}
+#plan-part .premium .btn a{
+    font-family: bariol-googlefont;
+    font-size: 22px;
+    font-weight: bold;
+    color: #35B1BA;
+    background: #fff;
+    padding: 15px 65px;
+    border-radius: 10px;
+}
+#plan-part .premium h3{
+    font-family: bariol-googlefont;
+    font-size: 22px;
+    font-weight: bold; 
+}
+#plan-part .premium h4{
+    font-family: bariol-googlefont;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px; 
+}
+/* #plan-part .premium p:after{
     position: absolute;
     bottom: -12px;
     left: 30px;
@@ -1049,7 +1140,7 @@ box-shadow: 0px 20px 30px 0px rgba(53,177,186,.5);
 }
 #plan-part .premium ul li{
     margin-top: 20px;
-}
+} */
 /*********************************************
               plan-part css end
 **********************************************/
@@ -1058,15 +1149,32 @@ box-shadow: 0px 20px 30px 0px rgba(53,177,186,.5);
 **********************************************/
 #slider-part{
     background: #f1f1f1;
-    margin-top: 100px;
     padding-bottom: 100px;
+    padding-top: 100px;
+    margin-top: -100px;
 }
 #slider-part .title h1{
     text-align: center;
     text-transform: inherit;
     padding-top: 80px;
 }
-#slider-part .slider .img{
+#slider-part .slide{
+    padding-top: 20px;
+}
+#slider-part .slide .img{
+    width: 100%;
+    height: 100%;
+}
+#slider-part .slide .img img{
+    width: 100%;
+    height: 100%;
+    transform: scale(.8);
+    margin-left: 45px;
+}
+#slider-part .slide .img .cls{
+    margin-left: -45px;
+}
+/* #slider-part .slider .img{
     margin-left: 36px;
     margin-right: 36px;
 }
@@ -1106,7 +1214,7 @@ box-shadow: 0px 20px 30px 0px rgba(53,177,186,.5);
 }
 #slider-part .next:hover{
     border: 1px solid #585B8F;
-}
+} */
 /*********************************************
               slider-part css end
 **********************************************/

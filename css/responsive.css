@@ -37,6 +37,10 @@
         text-align: center;
     }
 
+    nav ul li ul{
+        left: 32%;
+    }
+
     /***********************banner css***********************/
     #banner-part .text p {
         width: auto;
@@ -259,6 +263,15 @@
         left: 19%;
     }
 
+    /***********************picture css***********************/
+    #picture-part .title h1{
+        font-size: 30px;
+        width: auto;
+    }
+    #picture-part .img img{
+        width: 90%;
+    }
+
     /***********************Gallery css***********************/
     #gallery-part .title h1 {
         margin-top: 0;
@@ -300,6 +313,14 @@
 
     #plan-part .premium ul li {
         font-size: 14px;
+    }
+
+    #slider-part .slide .img img{
+        margin-left: 0;
+    }
+
+    #slider-part .slide .img .cls{
+        margin-left: 0;
     }
 
     /***********************slider css***********************/
@@ -389,6 +410,10 @@
 
     nav ul li a {
         text-align: center;
+    }
+
+    nav ul li ul{
+        left: 32%;
     }
 
     /***********************banner css***********************/
@@ -622,6 +647,15 @@
         display: none;
     }
 
+     /***********************picture css***********************/
+     #picture-part .title h1{
+        font-size: 30px;
+        width: auto;
+    }
+    #picture-part .img img{
+        width: 90%;
+    }
+
     /***********************Gallery css***********************/
     #gallery-part .title h1 {
         margin-top: 0;
@@ -663,6 +697,14 @@
 
     #plan-part .premium ul li {
         font-size: 14px;
+    }
+    
+    #slider-part .slide .img img{
+        margin-left: 0;
+    }
+
+    #slider-part .slide .img .cls{
+        margin-left: 0;
     }
 
     /***********************slider css***********************/
@@ -718,8 +760,6 @@
 
 @media (min-width:768px) and (max-width:991px) {
 
-
-
     /***********************navbar css**********************/
     nav .navbar-brand {
         width: 30%;
@@ -755,6 +795,10 @@
 
     nav ul li a {
         text-align: center;
+    }
+
+    nav ul li ul{
+        left: 32%;
     }
 
     /***********************banner css***********************/
@@ -978,6 +1022,15 @@
         left: 19%;
     }
 
+     /***********************picture css***********************/
+     #picture-part .title h1{
+        font-size: 30px;
+        width: auto;
+    }
+    #picture-part .img img{
+        width: 90%;
+    }
+
     /***********************Gallery css***********************/
     #gallery-part .title h1 {
         /*! margin-top: 50px; */
@@ -1027,6 +1080,14 @@
 
     #plan-part .premium ul li {
         font-size: 14px;
+    }
+
+    #slider-part .slide .img img{
+        margin-left: 35px;
+    }
+
+    #slider-part .slide .img .cls{
+        margin-left: -35px;
     }
 
     /***********************slider css***********************/
@@ -1157,6 +1218,10 @@
     #solve-part .part2 .family .img {
         margin-top: 0px;
     }
+
+    #solve-part .part1 .moni{
+        padding: 30px 10px 51px;
+    }
     
     #solve-part .part1 .spmoni{
         padding: 30px 10px 50px !important;
@@ -1167,7 +1232,7 @@
     }
     
     #solve-part .part1 .report{
-        padding: 43px 10px 80px;
+        padding: 43px 10px 7px;
     }
     
     #solve-part .part1 .home{
@@ -1175,7 +1240,7 @@
     }
     
     #solve-part .part2 .family{
-        padding: 19px 10px 79px;
+        padding: 19px 10px 75px;
     }
     
     /***********************impact css***********************/
@@ -1231,8 +1296,14 @@
         font-size: 30px;
     }
     
-    /***********************gallery css***********************/
-
+     /***********************picture css***********************/
+    #picture-part .title h1{
+        font-size: 30px;
+        width: auto;
+    }
+    #picture-part .img img{
+        width: 90%;
+    }
     
     /***********************plan css***********************/
     #plan-part .basic ul li{
@@ -1241,6 +1312,14 @@
     
     #plan-part .premium ul li{
         font-size: 14px;
+    }
+
+    #slider-part .slide .img img{
+        margin-left: 35px;
+    }
+
+    #slider-part .slide .img .cls{
+        margin-left: -35px;
     }
     
     /***********************footer css***********************/
