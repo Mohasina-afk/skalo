@@ -446,7 +446,7 @@ box-shadow: 0px 20px 30px 0px rgba(53,177,186,.5);
     text-align: center;
     text-transform: inherit;
     width: 90%;
-    margin-top: 100px;
+    margin: 100px auto 0;
 }
 #suggest-part .part1 .img{
     text-align: center;
