@@ -58,16 +58,17 @@ nav ul li{
     position: relative;
 }
 /* ****************************dropdown start***************************** */
-nav ul li a i{
-    font-size: 15px;
+nav ul li a i {
+    font-size: 20px;
     margin-left: 5px;
+    position: absolute;
+    top: 9px;
 }
 nav ul li ul{
     position: absolute;
-    top: 100%;
-    left: 0;
-    background: #f1f1f1;
-    width: 105px;
+    top: 85%;
+    left: -15px;
+    width: 100px;
     padding: 10px 1px;
     visibility: hidden;
     opacity: 0;
@@ -83,6 +84,7 @@ nav ul li a{
     color: #2E3360;
     text-transform: capitalize;
     transition: .4s;
+    position: relative;
 }
 nav ul li a:hover{
     color: #35B1BA;
@@ -100,6 +102,15 @@ nav .btn a{
     padding: 10px 30px;
     border-radius: 7px;
     transition: .4s;
+}
+nav ul li .change:hover{
+    color: #FF8748;
+}
+nav ul li .change:hover a{
+    color: #FF8748;
+} 
+nav ul li .change:hover i{
+    color:  #2E3360;
 }
 nav .spbtn a{
     padding: 10px 3px;
@@ -1051,28 +1062,7 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.5);
     background: #fff;
     padding: 15px 65px;
     border-radius: 10px;
-}   
-#plan-part .basic h3{
-    font-family: bariol-googlefont;
-    font-size: 22px;
-    font-weight: bold;
-    padding-bottom: 40px; 
 }
-/* #plan-part .basic p:after{
-    position: absolute;
-    bottom: -12px;
-    left: 30px;
-    width: 82%;
-    height: 1px;
-    background: #fff;
-    content: "";
-} */
-/* #plan-part .basic ul{
-    margin-top: 40px;
-}
-#plan-part .basic ul li{
-    margin-top: 20px;
-} */
 
 
 
@@ -1082,7 +1072,7 @@ box-shadow: 0px 20px 30px 0px rgba(255,135,72,.5);
     color: #fff;
     text-align: center;
     border-radius: 10px;
-    padding: 30px 0;
+    padding: 30px 0 20px;
     margin-top: 30px;
 }
 #plan-part .premium:hover{
@@ -1104,7 +1094,7 @@ box-shadow: 0px 20px 30px 0px rgba(53,177,186,.5);
     font-size: 50px;
 }
 #plan-part .premium .btn{
-    margin: 30px 0;
+    margin: 30px 0 10px;
 }
 #plan-part .premium .btn a{
     font-family: bariol-googlefont;
@@ -1115,32 +1105,12 @@ box-shadow: 0px 20px 30px 0px rgba(53,177,186,.5);
     padding: 15px 65px;
     border-radius: 10px;
 }
-#plan-part .premium h3{
-    font-family: bariol-googlefont;
-    font-size: 22px;
-    font-weight: bold; 
-}
 #plan-part .premium h4{
     font-family: bariol-googlefont;
     font-size: 16px;
     font-weight: bold;
-    margin-top: 20px; 
+    padding-top: 10px; 
 }
-/* #plan-part .premium p:after{
-    position: absolute;
-    bottom: -12px;
-    left: 30px;
-    width: 82%;
-    height: 1px;
-    background: #fff;
-    content: "";
-}
-#plan-part .premium ul{
-    margin-top: 40px;
-}
-#plan-part .premium ul li{
-    margin-top: 20px;
-} */
 /*********************************************
               plan-part css end
 **********************************************/

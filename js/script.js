@@ -29,7 +29,7 @@ $(window).scroll(function(){
 
 
 
-//slider js @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//Gallery js @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 $('.slider').slick({
     dots: false,
     infinite: true,
@@ -38,9 +38,7 @@ $('.slider').slick({
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    arrows: true,
-    prevArrow: '<i class="fas fa-chevron-left prev"></i>',
-    nextArrow: '<i class="fas fa-chevron-right next"></i>',
+    arrows: false,
     responsive: [
         {
             breakpoint: 991,
