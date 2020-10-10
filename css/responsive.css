@@ -44,11 +44,11 @@
 
     /***********************banner css***********************/
     #banner-part{
-        background-size: 90% 70%;
+        background-size: 65% 60%;
         margin-bottom: -80px;
     }
     #banner-part .text p {
-        width: auto;
+        width: 150px;
     }
 
     #banner-part .text h1 {
@@ -109,17 +109,57 @@
     /***********************about css***********************/
     #about-two .title {
         margin-left: 20px;
-        /*! margin-top: -40px; */
     }
 
     #about-two a {
         margin-left: 20px;
     }
 
-    #about-two .img1 img {
+    #about-two .img1{
+        width: 40%;
+    }
+    #about-two .img1 img{
+        margin-left: 0;
+    }
+    #about-two .img2{
+        width: 40%;
+    }
+    #about-two .img2 img{
+        margin-left: 0;
+    }
+    #about-two .img3{
+        width: 110%;
+    }
+    #about-two .img3 img{
+       width: 100%;
+       margin-left: 0;
+       margin-top: 25px;
+    }
+    #about-two .img4{
+        width: 110%;
+    }
+    #about-two .img4 .babu{
+        margin-left: 0;
+        width: 47.1%;
+    }
+    #about-two .prb{
+        width: 47.1%;
+        margin-left: 0;
+    }
+
+    #about-two{
+        position: relative;
+    }
+    #about-two .pranty1{
+        width: 55%;
+        position: absolute;
+        top: 75px;
+        left: 42%;
+    }
+
+    /* #about-two .img1 img {
         width: 95%;
         margin-left: 8px;
-        /*! margin-top: 25px; */
     }
 
     #about-two .img2 img {
@@ -141,7 +181,7 @@
     #about-two .img4 .babu{
         width: 45.1%;
         margin-left: 10px;
-    }
+    } */
 
     #about-two .title p {
         width: auto;
@@ -158,6 +198,10 @@
     /***********************Solve css***********************/
     #solve-part .part1 .moni {
         margin-top: 20px;
+    }
+
+    #solve-part .part1 .moni .text p{
+        width: auto;
     }
 
     #solve-part .part1 .report {
@@ -300,34 +344,6 @@
         font-size: 30px;
     }
 
-    /* #gallery-part .img1 img {
-        width: 80%;
-        margin-left: 32px;
-    }
-
-    #gallery-part .img2 img {
-        width: 80%;
-        margin-left: 32px;
-        margin-top: 25px;
-    }
-
-    #gallery-part .img3 img {
-        width: 80%;
-        margin-left: 32px;
-    }
-
-    #gallery-part .img4 img {
-        width: 80%;
-        margin-left: 32px;
-        margin-top: 25px;
-    }
-
-    #gallery-part .img5 img {
-        width: 80%;
-        margin-left: 32px;
-        margin-top: 25px;
-    } */
-
     #gallery-part {
         margin-bottom: -30px;
     }
@@ -373,16 +389,14 @@
         width: 100%;
         transition: .4s;
     }
-    
-
 
     /***********************Plan css***********************/
-    #plan-part .basic ul li {
-        font-size: 14px;
+    #plan-part .basic .btn a{
+        padding: 15px 30px;
     }
 
-    #plan-part .premium ul li {
-        font-size: 14px;
+    #plan-part .premium .btn a {
+        padding: 15px 30px;
     }
 
     #slider-part .slide .img img{
@@ -568,7 +582,42 @@
         margin-left: 20px;
     }
 
-    #about-two .img1 img {
+    #about-two .img1 img{
+        margin-left: 0;
+        width: 95%;
+    }
+    #about-two .img2 img{
+        margin-left: 0;
+    }
+    #about-two .img2 {
+        height: 70%;
+    }
+    #about-two .img2 img{
+        width: 95%;
+        height: 80%;
+        margin-left: 0;
+    }
+    #about-two .img3 {
+        height: 50%;
+        margin-left: -15px;
+    }
+    #about-two .img3 img{
+        width: 100%;
+        margin-left: 0;
+    }
+    #about-two .img4{
+        margin-left: -15px;
+    }
+    #about-two .img4 .babu{
+        margin-left: 0;
+        width: 49.1%;
+    }
+    #about-two .prb{
+        width: 48.1%;
+        margin-left: 0;
+    }
+
+    /* #about-two .img1 img {
         width: 95%;
         margin-left: 8px;
         margin-top: 25px;
@@ -577,6 +626,10 @@
     #about-two .img2 img {
         width: 95%;
         margin-left: 8px;
+        height: 63%;
+    }
+    #about-two .img2 {
+        height: 80%;
     }
 
     #about-two .img3 img {
@@ -593,7 +646,7 @@
     #about-two .img4 .babu{
         width: 45.1%;
         margin-left: 15px;
-    }
+    } */
 
     #about-two .title p {
         width: auto;
@@ -796,11 +849,11 @@
     }
     
     #slider-part .slide .img img{
-        margin-left: 0;
+        margin-left: 25px;
     }
 
     #slider-part .slide .img .cls{
-        margin-left: 0;
+        margin-left: -25px;
     }
 
     /***********************slider css***********************/
@@ -928,7 +981,7 @@
 
     #about-part img {
         width: 100%;
-        margin-top: 25px;
+        margin-top: 60px;
     }
 
     #about-part .one {
@@ -954,7 +1007,6 @@
     /***********************about css***********************/
     #about-two .title {
         margin-left: 20px;
-        /*! margin-top: -30px; */
     }
 
     #about-two a {
@@ -1039,17 +1091,17 @@
     #impact-part .img2 h3::after {
         width: 111px;
         transform: rotate(30deg);
-        margin-top: -12px;
+        margin-top: 0;
     }
     #impact-part .img3 h3::after {
         width: 122px;
         transform: rotate(-8deg);
-        margin-top: 5px;
+        margin-top: 10px;
     }
     #impact-part .img4 h3::after {
         width: 163px;
         transform: rotate(-30deg);
-        margin-top: 20px;
+        margin-top: 30px;
         margin-right: -20px;
     }
     
@@ -1070,13 +1122,32 @@
     
     #impact-part .img4 h3{
         font-size: 25px;
-        margin-top: -30px;
+        margin-top: -15px;
     }
 
-    #impact-part .img4 h3::after{
-        /* width: 160px;
-        transform: rotate(-35deg);
-        margin-top: 8px; */
+
+    #impact-part .spimg1 h3::after{
+        margin-top: -50px;
+        width: 130px !important;
+        margin-right: -50px; 
+    }
+
+    #impact-part .spimg2 h3::after {
+        width: 147px !important;
+        transform: rotate(30deg);
+        margin-top: -2px;
+    }
+
+    #impact-part .spimg3 h3{
+        margin-top: 0px;
+    }
+    #impact-part .spimg3 h3::after {
+        width: 136px !important;
+        transform: rotate(0deg);
+    }
+    #impact-part .spimg4 h3::after {
+        width: 153px !important;
+        transform: rotate(-25deg);
     }
 
      /***********************picture css***********************/
@@ -1289,7 +1360,7 @@
     }
     
     #solve-part .part1 .spreport {
-        padding: 30px 10px 47px !important;
+        padding: 30px 10px 0 !important;
     }
     
     #solve-part .part1 .report{
@@ -1299,9 +1370,17 @@
     #solve-part .part1 .home{
         padding: 42px 10px;
     }
+
+    #solve-part .part1 .sphome{
+        padding: 30px 10px 55px !important;
+    }
     
     #solve-part .part2 .family{
         padding: 19px 10px 75px;
+    }
+
+    #solve-part .part2 .spfamily{
+        padding: 19px 10px 12px !important;
     }
     
     /***********************impact css***********************/
@@ -1314,12 +1393,14 @@
     }
     #impact-part .img2 h3::after{
         width: 237px;
+        margin-top: 15px;
     }
     #impact-part .img3 h3::after{
         width: 268px;
     }
     #impact-part .img4 h3::after{
-        width: 290px;
+        width: 288px;
+        margin-top: 32px;
     }
     
     #impact-part .img1 h3{
@@ -1337,10 +1418,27 @@
     #impact-part .img4 h3{
         font-size: 30px;
     }
+
+    #impact-part .spimg1 h3::after {
+        width: 173px !important;
+    }
+
+    #impact-part .spimg2 h3::after {
+        width: 221px !important;
+        margin-top: 3px;
+    }
+
+    #impact-part .spimg3 h3::after {
+        width: 239px !important;
+    }
+
+    #impact-part .spimg4 h3::after {
+        width: 250px !important;
+    }
     
      /***********************picture css***********************/
     #picture-part .title h1{
-        font-size: 30px;
+        font-size: 30px !important;
         width: auto;
     }
     #picture-part .img img{
@@ -1348,12 +1446,12 @@
     }
     
     /***********************plan css***********************/
-    #plan-part .basic ul li{
-        font-size: 14px;
+    #plan-part .basic .btn a{
+        padding: 15px 30px;
     }
     
-    #plan-part .premium ul li{
-        font-size: 14px;
+    #plan-part .premium .btn a{
+        padding: 15px 30px;
     }
 
     #slider-part .slide .img img{
