@@ -1094,14 +1094,14 @@
         margin-top: 0;
     }
     #impact-part .img3 h3::after {
-        width: 122px;
+        width: 132px;
         transform: rotate(-8deg);
-        margin-top: 10px;
+        margin-top: 5px;
     }
     #impact-part .img4 h3::after {
-        width: 163px;
+        width: 180px;
         transform: rotate(-30deg);
-        margin-top: 30px;
+        margin-top: 0;
         margin-right: -20px;
     }
     
@@ -1110,9 +1110,12 @@
         margin-top: 100px;
     }
     
+    #impact-part .spimg2 h3{
+        margin-top: -10px !important;
+    }
     #impact-part .img2 h3 {
         font-size: 25px;
-        margin-top: -10px;
+        margin-top: -20px;
     }
     
     #impact-part .img3 h3 {
@@ -1138,16 +1141,14 @@
         margin-top: -2px;
     }
 
-    #impact-part .spimg3 h3{
-        margin-top: 0px;
-    }
     #impact-part .spimg3 h3::after {
-        width: 136px !important;
+        width: 135px !important;
         transform: rotate(0deg);
     }
     #impact-part .spimg4 h3::after {
         width: 153px !important;
         transform: rotate(-25deg);
+        margin-top: 10px;
     }
 
      /***********************picture css***********************/
@@ -1393,14 +1394,15 @@
     }
     #impact-part .img2 h3::after{
         width: 237px;
-        margin-top: 15px;
+        margin-top: 5px;
     }
     #impact-part .img3 h3::after{
-        width: 268px;
+        width: 284px;
     }
     #impact-part .img4 h3::after{
         width: 288px;
-        margin-top: 32px;
+        margin-top: 6px;
+        right: 172%;
     }
     
     #impact-part .img1 h3{
